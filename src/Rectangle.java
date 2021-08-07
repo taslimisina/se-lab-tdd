@@ -11,4 +11,16 @@ public class Rectangle implements Shape{
     public int computeArea() {
         return width * height;
     }
+
+    public int getWidth() {
+        return 0;
+    }
+
+    public void setWidth(int width) { }
+
+    public int getHeight() {
+        return 0;
+    }
+
+    public void setHeight(int height) { }
 }
