@@ -6,7 +6,7 @@ import org.junit.runners.JUnit4;
 
 @RunWith(JUnit4.class)
 public class SquareTest {
-    Square square;
+    private Square square;
 
     @Before
     public void init() {
