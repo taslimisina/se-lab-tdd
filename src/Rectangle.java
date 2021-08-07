@@ -13,14 +13,18 @@ public class Rectangle implements Shape{
     }
 
     public int getWidth() {
-        return 0;
+        return width;
     }
 
-    public void setWidth(int width) { }
+    public void setWidth(int width) {
+        this.width = width;
+    }
 
     public int getHeight() {
-        return 0;
+        return height;
     }
 
-    public void setHeight(int height) { }
+    public void setHeight(int height) {
+        this.height = height;
+    }
 }
